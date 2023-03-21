@@ -45,3 +45,8 @@ function argytec_register_scripts() {
 }
 
 add_action('wp_enqueue_scripts', 'argytec_register_scripts');
+
+function argytec_add_woocommerce_support() {
+	add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'argytec_add_woocommerce_support' );

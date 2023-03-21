@@ -1,0 +1,14 @@
+2023-03-21T18:16:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mytheme_add_woocommerce_support" not found or invalid function name in C:\xampp\htdocs\argygestionable\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\argygestionable\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\argygestionable\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\argygestionable\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\argygestionable\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\argygestionable\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\argygestionable\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\argygestionable\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\argygestionable\wp-includes\class-wp-hook.php on line 308
+
+2023-03-21T18:31:03+00:00 CRITICAL syntax error, unexpected identifier "get_title" in C:\xampp\htdocs\argygestionable\wp-content\themes\argygestionable\woocommerce.php on line 71
+
