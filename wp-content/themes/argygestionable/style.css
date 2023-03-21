@@ -8,6 +8,11 @@ Tags: cool, argytec
 
 */
 
-h1 {
-    color: red;
+.nav-link {
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.nav-link::first-letter {
+    text-transform: uppercase;
 }
