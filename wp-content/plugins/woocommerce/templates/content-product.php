@@ -24,7 +24,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<li <?php wc_product_class( '', $product ); ?>>
+<div class="card mt-5" style="width: 18rem;" <?php  wc_product_class( '', $product ); ?>>
 	<?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.
@@ -39,7 +39,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_show_product_loop_sale_flash - 10
 	 * @hooked woocommerce_template_loop_product_thumbnail - 10
 	 */
-	do_action( 'woocommerce_before_shop_loop_item_title' );
+	do_action( 'woocommerce_before_shop_loop_item_title' );	
 
 	/**
 	 * Hook: woocommerce_shop_loop_item_title.
@@ -64,4 +64,4 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 */
 	do_action( 'woocommerce_after_shop_loop_item' );
 	?>
-</li>
+</div>

@@ -1,0 +1,13 @@
+2023-03-22T17:47:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_template_loop_product_link_close" not found or invalid function name in C:\xampp\htdocs\argygestionable\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\argygestionable\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\argygestionable\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\argygestionable\wp-content\themes\argygestionable\functions.php(88): do_action('woocommerce_aft...')
+#3 C:\xampp\htdocs\argygestionable\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\argygestionable\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\argygestionable\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\argygestionable\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\argygestionable\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\argygestionable\wp-includes\class-wp-hook.php on line 308
+

@@ -16,3 +16,8 @@ Tags: cool, argytec
 .nav-link::first-letter {
     text-transform: uppercase;
 }
+
+.card-body a {
+    color: var(--bs-btn-hover-border-color);
+    text-decoration: none;
+}
