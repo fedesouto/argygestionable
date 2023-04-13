@@ -15,13 +15,14 @@
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/"><?php
+      <a class="navbar-brand" href="/">
+        <?php
 
-                                        $custom_logo_id = get_theme_mod('custom_logo');
-                                        $logo = wp_get_attachment_image_src($custom_logo_id);
+        $custom_logo_id = get_theme_mod('custom_logo');
+        $logo = wp_get_attachment_image_src($custom_logo_id);
 
 
-                                        ?><img src="<?php echo $logo[0] ?>" alt="" class="img-fluid" style="max-height: 80px; width: auto;"></a>
+        ?><img src="<?php echo $logo[0] ?>" alt="" class="img-fluid" style="max-height: 80px; width: auto;"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
