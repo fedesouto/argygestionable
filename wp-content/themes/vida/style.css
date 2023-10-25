@@ -1,0 +1,75 @@
+/*
+Theme Name:   Vida Productions
+Theme URI:    https://argytec.com/
+Description:  Vida Productions Theme
+Author:       Argytec
+Author URI:   https://argytec.com/
+Template:     astra
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  vidaproductions
+*/
+
+:root {
+  --beige: #d7cbb4;
+  --white: #f3efec;
+  --green: #8b8a74;
+  --blue: #192d35;
+  --dark-beige: #a1907f;
+  --brown: #955c3f;
+  --blue-accent: #273a42;
+
+}
+
+/* RESET */
+
+.vida-product-search {
+  width: 45%;
+}
+
+.vida-product-search-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.vida-product-search-field {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: solid 1px var(--white) !important;
+  color: var(--white) !important;
+  font-size: 16px !important;
+}
+
+.vida-product-summary-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.vida-hidden-quantity-button {
+	display: none;
+}
+
+.vida-single-product-title {
+    font-size: 6rem;
+    margin-bottom: 1rem !important;
+}
+
+.vida-single-product-description {
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.vida-single-product-description p {
+    max-width: 48%;
+}
+
+.vida-shop-filter-container {
+  display: flex;
+  margin-bottom: 4rem;
+  align-items: center;
+}

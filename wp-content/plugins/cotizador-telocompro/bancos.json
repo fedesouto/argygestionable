@@ -1,0 +1,210 @@
+[
+    {
+      "id_banco": 1,
+      "nombre": "Tarjeta Shopping"
+    },
+    {
+      "id_banco": 2,
+      "nombre": "Provencred"
+    },
+    {
+      "id_banco": 3,
+      "nombre": "Banco Comafi"
+    },
+    {
+      "id_banco": 4,
+      "nombre": "Banco Hipotecario"
+    },
+    {
+      "id_banco": 5,
+      "nombre": "Banco Industrial"
+    },
+    {
+      "id_banco": 6,
+      "nombre": "Banco Nacion"
+    },
+    {
+      "id_banco": 7,
+      "nombre": "Banco Patagonia"
+    },
+    {
+      "id_banco": 8,
+      "nombre": "HSBC"
+    },
+    {
+      "id_banco": 9,
+      "nombre": "ICBC"
+    },
+    {
+      "id_banco": 10,
+      "nombre": "Macro"
+    },
+    {
+      "id_banco": 11,
+      "nombre": "Banco Galicia"
+    },
+    {
+      "id_banco": 12,
+      "nombre": "Banco Santa Cruz"
+    },
+    {
+      "id_banco": 13,
+      "nombre": "Itau"
+    },
+    {
+      "id_banco": 14,
+      "nombre": "Nuevo Banco de Entre Rios"
+    },
+    {
+      "id_banco": 15,
+      "nombre": "Nuevo Banco de Santa Fe"
+    },
+    {
+      "id_banco": 16,
+      "nombre": "Banco Ciudad"
+    },
+    {
+      "id_banco": 17,
+      "nombre": "Banco San Juan"
+    },
+    {
+      "id_banco": 18,
+      "nombre": "Banco Supervielle"
+    },
+    {
+      "id_banco": 19,
+      "nombre": "Banco Santander"
+    },
+    {
+      "id_banco": 20,
+      "nombre": "BBVA"
+    },
+    {
+      "id_banco": 21,
+      "nombre": "Banco Provincia"
+    },
+    {
+      "id_banco": 22,
+      "nombre": "Banco de La Pampa"
+    },
+    {
+      "id_banco": 23,
+      "nombre": "Banco Bica"
+    },
+    {
+      "id_banco": 24,
+      "nombre": "Fueguina"
+    },
+    {
+      "id_banco": 25,
+      "nombre": "Macro - Selecta"
+    },
+    {
+      "id_banco": 26,
+      "nombre": "Banco Columbia"
+    },
+    {
+      "id_banco": 27,
+      "nombre": "Banco Municipal"
+    },
+    {
+      "id_banco": 28,
+      "nombre": "Banco Saenz"
+    },
+    {
+      "id_banco": 29,
+      "nombre": "Efectivo Si"
+    },
+    {
+      "id_banco": 30,
+      "nombre": "Comafi Chicas"
+    },
+    {
+      "id_banco": 31,
+      "nombre": "Banco Coinag"
+    },
+    {
+      "id_banco": 32,
+      "nombre": "HSBC Access Now"
+    },
+    {
+      "id_banco": 33,
+      "nombre": "Visa"
+    },
+    {
+      "id_banco": 34,
+      "nombre": "HSBC Power."
+    },
+    {
+      "id_banco": 35,
+      "nombre": "Naranja"
+    },
+    {
+      "id_banco": 36,
+      "nombre": "Tarjeta Cencosud"
+    },
+    {
+      "id_banco": 37,
+      "nombre": "Argencard S.A."
+    },
+    {
+      "id_banco": 38,
+      "nombre": "Nativa Mastercard"
+    },
+    {
+      "id_banco": 39,
+      "nombre": "Tarjeta Walmart"
+    },
+    {
+      "id_banco": 40,
+      "nombre": "Carta Automatica"
+    },
+    {
+      "id_banco": 41,
+      "nombre": "Banco de Chaco"
+    },
+    {
+      "id_banco": 42,
+      "nombre": "Banco de Comercio"
+    },
+    {
+      "id_banco": 43,
+      "nombre": "Cordobesa"
+    },
+    {
+      "id_banco": 44,
+      "nombre": "Diners"
+    },
+    {
+      "id_banco": 45,
+      "nombre": "Emitida pr American Express"
+    },
+    {
+      "id_banco": 46,
+      "nombre": "Rebanking"
+    },
+    {
+      "id_banco": 47,
+      "nombre": "Cabal"
+    },
+    {
+      "id_banco": 48,
+      "nombre": "CMR"
+    },
+    {
+      "id_banco": 49,
+      "nombre": "Mercado Pago + Banco Patagonia"
+    },
+    {
+      "id_banco": 50,
+      "nombre": "Master"
+    },
+    {
+      "id_banco": 51,
+      "nombre": "Tarjeta Mercado Pago"
+    },
+    {
+      "id_banco": 52,
+      "nombre": "Otros"
+    }
+  ]

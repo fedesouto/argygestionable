@@ -1,0 +1,50 @@
+[
+    {
+      "id_tarjetas": 1,
+      "nombre": "Naranja"
+    },
+    {
+      "id_tarjetas": 2,
+      "nombre": "Tarjeta Shopping"
+    },
+    {
+      "id_tarjetas": 3,
+      "nombre": "Cencosud"
+    },
+    {
+      "id_tarjetas": 4,
+      "nombre": "Argencard"
+    },
+    {
+      "id_tarjetas": 5,
+      "nombre": "Mastercard"
+    },
+    {
+      "id_tarjetas": 6,
+      "nombre": "American Express"
+    },
+    {
+      "id_tarjetas": 7,
+      "nombre": "Cordobesa"
+    },
+    {
+      "id_tarjetas": 8,
+      "nombre": "Mercado Pago + Banco Patagonia"
+    },
+    {
+      "id_tarjetas": 9,
+      "nombre": "Cabal"
+    },
+    {
+      "id_tarjetas": 10,
+      "nombre": "Visa"
+    },
+    {
+      "id_tarjetas": 11,
+      "nombre": "Diners"
+    },
+    {
+      "id_tarjetas": 12,
+      "nombre": "CMR"
+    }
+  ]

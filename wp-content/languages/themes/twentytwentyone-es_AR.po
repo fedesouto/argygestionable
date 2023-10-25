@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-One package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-24 03:57:59+0000\n"
+"PO-Revision-Date: 2023-04-03 15:42:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,8 +32,8 @@ msgstr "Entradas <span class=\"nav-short\">recientes</span>"
 
 #: classes/class-twenty-twenty-one-customize-notice-control.php:40
 #: classes/class-twenty-twenty-one-dark-mode.php:178
-msgid "https://wordpress.org/support/article/twenty-twenty-one/#dark-mode-support"
-msgstr "https://wordpress.org/support/article/twenty-twenty-one/#dark-mode-support"
+msgid "https://wordpress.org/documentation/article/twenty-twenty-one/#dark-mode-support"
+msgstr "https://wordpress.org/documentation/article/twenty-twenty-one/#dark-mode-support"
 
 #. translators: %s: Twenty Twenty-One support article URL.
 #: classes/class-twenty-twenty-one-dark-mode.php:177
@@ -197,7 +197,8 @@ msgstr "Modo oscuro: %s"
 msgid "This content is password protected. Please enter a password to view."
 msgstr "Este contenido está protegido con contraseña. Ingresá la contraseña para verlo."
 
-#: inc/menu-functions.php:34
+#. translators: Hidden accessibility text.
+#: inc/menu-functions.php:35
 msgid "Open menu"
 msgstr "Abrir el menú"
 
@@ -238,24 +239,25 @@ msgctxt "Theme starter content"
 msgid "Need help?"
 msgstr "¿Necesitás ayuda?"
 
-#: inc/block-patterns.php:125
-msgid "Reading"
-msgstr "Leyendo"
+#: inc/starter-content.php:97
+msgctxt "Theme starter content"
+msgid "Twenty Twenty-One also includes an overlap style for column blocks. With a Columns block selected, open the \"Styles\" panel within the Editor sidebar. Choose the \"Overlap\" block style to try it out."
+msgstr "Twenty Twenty-One también incluye un estilo de superposición para bloques de columnas. Con un bloque de columnas seleccionado, abrí el panel \"Estilos\" dentro de la barra lateral del Editor. Elegí el estilo de bloque \"Superposición\" para probarlo"
 
 #: inc/starter-content.php:93
 msgctxt "Theme starter content"
 msgid "Overlap columns"
 msgstr "Columnas superpuestas"
 
-#: inc/starter-content.php:97
-msgctxt "Theme starter content"
-msgid "Twenty Twenty-One also includes an overlap style for column blocks. With a Columns block selected, open the \"Styles\" panel within the Editor sidebar. Choose the \"Overlap\" block style to try it out."
-msgstr "Twenty Twenty-One también incluye un estilo de superposición para bloques de columnas. Con un bloque de columnas seleccionado, abrí el panel \"Estilos\" dentro de la barra lateral del Editor. Elegí el estilo de bloque \"Superposición\" para probarlo"
-
 #: inc/starter-content.php:87
 msgctxt "Theme starter content"
 msgid "Twenty Twenty-One includes stylish borders for your content. With an Image block selected, open the \"Styles\" panel within the Editor sidebar. Select the \"Frame\" block style to activate it."
 msgstr "Twenty Twenty-One incluye bordes elegantes para tu contenido. Con un bloque de imagen seleccionado, abrí el panel \"Estilos\" dentro de la barra lateral del Editor. Elegí el estilo de bloque \"Marco\" para activarlo."
+
+#: inc/starter-content.php:83
+msgctxt "Theme starter content"
+msgid "Frame your images"
+msgstr "Enmarcá tus imágenes"
 
 #: inc/starter-content.php:77
 msgctxt "Theme starter content"
@@ -267,22 +269,22 @@ msgctxt "Theme starter content"
 msgid "Add block patterns"
 msgstr "Agregar patrones de bloque"
 
-#: inc/block-patterns.php:125
-msgid "The Garden at Bougival"
-msgstr "El Jardín en Bougival"
-
-#: inc/block-patterns.php:114
-msgid "Beautiful gardens painted by Berthe Morisot in the late 1800s"
-msgstr "Hermosos jardines pintados por Berthe Morisot a fines del Siglo XIX"
-
-#: inc/starter-content.php:83
+#: inc/starter-content.php:30 inc/starter-content.php:33
 msgctxt "Theme starter content"
-msgid "Frame your images"
-msgstr "Enmarcá tus imágenes"
+msgid "Create your website with blocks"
+msgstr "Creá tu web con bloques"
+
+#: inc/block-patterns.php:125
+msgid "Reading"
+msgstr "Leyendo"
 
 #: inc/block-patterns.php:125
 msgid "Young Woman in Mauve"
 msgstr "Mujer joven en malva"
+
+#: inc/block-patterns.php:125
+msgid "The Garden at Bougival"
+msgstr "El Jardín en Bougival"
 
 #: inc/block-patterns.php:125
 msgid "In the Bois de Boulogne"
@@ -292,39 +294,17 @@ msgstr "En el bosque de Bolonia"
 msgid "Villa with Orange Trees, Nice"
 msgstr "Villa con naranjos, Niza"
 
-#: inc/block-patterns.php:114
-msgid "&#8220;Villa with Orange Trees, Nice&#8221; by Berthe Morisot"
-msgstr "\"Villa con naranjos, Niza\", de Berthe Morisot"
-
 #: inc/block-patterns.php:125
 msgid "Roses Trémières"
 msgstr "Malvarrosas"
 
-#: inc/starter-content.php:30 inc/starter-content.php:33
-msgctxt "Theme starter content"
-msgid "Create your website with blocks"
-msgstr "Creá tu web con bloques"
+#: inc/block-patterns.php:114
+msgid "&#8220;Villa with Orange Trees, Nice&#8221; by Berthe Morisot"
+msgstr "\"Villa con naranjos, Niza\", de Berthe Morisot"
 
-#. translators: %s: Parent post.
-#: image.php:61
-msgid "Published in %s"
-msgstr "Publicada en %s"
-
-#: classes/class-twenty-twenty-one-customize.php:108
-msgid "Summary"
-msgstr "Resumen"
-
-#: classes/class-twenty-twenty-one-customize.php:85
-msgid "Excerpt Settings"
-msgstr "Ajustes del extracto"
-
-#: inc/block-patterns.php:76
-msgid "Berthe Morisot<br>(French, 1841-1895)"
-msgstr "Berthe Morisot<br>(Francia, 1841-1895)"
-
-#: inc/block-patterns.php:76
-msgid "Playing in the Sand"
-msgstr "Jugando en la arena"
+#: inc/block-patterns.php:114
+msgid "Beautiful gardens painted by Berthe Morisot in the late 1800s"
+msgstr "Hermosos jardines pintados por Berthe Morisot a fines del Siglo XIX"
 
 #: inc/block-patterns.php:114 inc/block-patterns.php:125
 msgid "&#8220;The Garden at Bougival&#8221; by Berthe Morisot"
@@ -341,16 +321,42 @@ msgid "&#8220;In the Bois de Boulogne&#8221; by Berthe Morisot"
 msgstr "\"En el bosque de Bolonia\", de Berthe Morisot"
 
 #: inc/block-patterns.php:76
+msgid "Berthe Morisot<br>(French, 1841-1895)"
+msgstr "Berthe Morisot<br>(Francia, 1841-1895)"
+
+#: inc/block-patterns.php:76
+msgid "Playing in the Sand"
+msgstr "Jugando en la arena"
+
+#: inc/block-patterns.php:76
 msgid "&#8220;Playing in the Sand&#8221; by Berthe Morisot"
 msgstr "\"Jugando en la arena\", de Berthe Morisot"
+
+#. translators: %s: Parent post.
+#: image.php:61
+msgid "Published in %s"
+msgstr "Publicada en %s"
+
+#: classes/class-twenty-twenty-one-customize.php:108
+msgid "Summary"
+msgstr "Resumen"
+
+#: classes/class-twenty-twenty-one-customize.php:85
+msgid "Excerpt Settings"
+msgstr "Ajustes del extracto"
+
+#: inc/block-styles.php:98
+msgid "Thick"
+msgstr "Grosor"
 
 #: classes/class-twenty-twenty-one-customize.php:106
 msgid "On Archive Pages, posts show:"
 msgstr "En las páginas de archivo, las entradas muestran:"
 
-#: inc/block-styles.php:98
-msgid "Thick"
-msgstr "Grosor"
+#. translators: %s: Author name.
+#: template-parts/post/author-bio.php:31
+msgid "View all of %s's posts."
+msgstr "Ver todas las entradas de %s."
 
 #. translators: %s: Author name.
 #: inc/template-tags.php:49 template-parts/post/author-bio.php:19
@@ -364,6 +370,11 @@ msgstr "Parece que no encontramos lo que buscás. Quizás te ayude una búsqueda
 #: template-parts/content/content-none.php:56
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Lo siento, pero nada coincide con tus términos de búsqueda. Por favor, intentá de nuevo con otras palabras claves."
+
+#. translators: %s: Link to WP admin new post page.
+#: template-parts/content/content-none.php:43
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "¿Estás listo para publicar tu primera entrada? <a href=\"%s\">Empezá acá</a>."
 
 #: single.php:40
 msgid "Previous post"
@@ -383,6 +394,10 @@ msgctxt "submit button"
 msgid "Search"
 msgstr "Buscar"
 
+#: searchform.php:24
+msgid "Search&hellip;"
+msgstr "Buscar..."
+
 #. translators: %d: The number of search results.
 #: search.php:33
 msgid "We found %d result for your search."
@@ -394,48 +409,6 @@ msgstr[1] "Encontramos %d resultados para tu búsqueda."
 #: search.php:21 template-parts/content/content-none.php:22
 msgid "Results for \"%s\""
 msgstr "Resultados para \"%s\""
-
-#: inc/block-patterns.php:113
-msgctxt "Block pattern description"
-msgid "An overlapping columns block with two images and a text description."
-msgstr "Un bloque de columnas superpuestas con dos imágenes y una descripción de texto."
-
-#: inc/block-patterns.php:109
-msgid "Overlapping images and text"
-msgstr "Imágenes y texto superpuestos"
-
-#: inc/block-patterns.php:97
-msgid "Two images showcase"
-msgstr "Mostrar dos imágenes"
-
-#: inc/block-patterns.php:88
-msgctxt "Block pattern description"
-msgid "Three images inside an overlapping columns block."
-msgstr "Tres imágenes dentro de un bloque de columnas superpuestas."
-
-#: inc/block-patterns.php:84
-msgid "Overlapping images"
-msgstr "Imágenes superpuestas"
-
-#: inc/block-patterns.php:72
-msgid "Media and text article title"
-msgstr "Título del artículo de texto y multimedia. "
-
-#: inc/block-patterns.php:64
-msgid "example@example.com"
-msgstr "ejemplo@ejemplo.com"
-
-#: inc/block-patterns.php:64
-msgid "Dribbble"
-msgstr "Dribbble"
-
-#: inc/block-patterns.php:64
-msgid "Instagram"
-msgstr "Instagram"
-
-#: inc/block-patterns.php:64
-msgid "Twitter"
-msgstr "Twitter"
 
 #. translators: %s: List of tags.
 #: inc/template-tags.php:116 inc/template-tags.php:158
@@ -453,7 +426,7 @@ msgid ", "
 msgstr ", "
 
 #. translators: %s: Post title. Only visible to screen readers.
-#: image.php:70 image.php:95 inc/template-tags.php:92 inc/template-tags.php:133
+#: image.php:70 image.php:96 inc/template-tags.php:92 inc/template-tags.php:133
 #: template-parts/content/content-page.php:48
 msgid "Edit %s"
 msgstr "Editar %s"
@@ -497,6 +470,119 @@ msgstr "Una lista de proyectos con imágenes en miniatura."
 #: inc/block-patterns.php:122
 msgid "Portfolio list"
 msgstr "Lista de Portfolio"
+
+#: inc/block-patterns.php:113
+msgctxt "Block pattern description"
+msgid "An overlapping columns block with two images and a text description."
+msgstr "Un bloque de columnas superpuestas con dos imágenes y una descripción de texto."
+
+#: inc/block-patterns.php:109
+msgid "Overlapping images and text"
+msgstr "Imágenes y texto superpuestos"
+
+#: inc/block-patterns.php:100
+msgctxt "Block pattern description"
+msgid "A media & text block with a big image on the left and a smaller one with bordered frame on the right."
+msgstr "Un bloque multimedia y texto, con una imagen grande a la izquierda y una más pequeña con un marco bordeado a la derecha."
+
+#: inc/block-patterns.php:97
+msgid "Two images showcase"
+msgstr "Mostrar dos imágenes"
+
+#: inc/block-patterns.php:88
+msgctxt "Block pattern description"
+msgid "Three images inside an overlapping columns block."
+msgstr "Tres imágenes dentro de un bloque de columnas superpuestas."
+
+#: inc/block-patterns.php:84
+msgid "Overlapping images"
+msgstr "Imágenes superpuestas"
+
+#: inc/block-patterns.php:75
+msgctxt "Block pattern description"
+msgid "A Media & Text block with a big image on the left and a heading on the right. The heading is followed by a separator and a description paragraph."
+msgstr "Un bloque multimedia y texto, con una imagen grande a la izquierda y un encabezado a la derecha. El título va seguido de un separador y un párrafo para la descripción."
+
+#: inc/block-patterns.php:72
+msgid "Media and text article title"
+msgstr "Título del artículo de texto y multimedia. "
+
+#: inc/block-patterns.php:64
+msgid "example@example.com"
+msgstr "ejemplo@ejemplo.com"
+
+#: inc/block-patterns.php:64
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/block-patterns.php:64
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/block-patterns.php:64
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/block-patterns.php:64
+msgid "Let&#8217;s Connect."
+msgstr "Conectemos."
+
+#: inc/block-patterns.php:63
+msgctxt "Block pattern description"
+msgid "A huge text followed by social networks and email address links."
+msgstr "Un texto enorme seguido por los enlaces a las redes sociales y a las direcciones de correo electrónico."
+
+#: inc/block-patterns.php:59
+msgid "Links area"
+msgstr "Área de enlaces"
+
+#: inc/block-patterns.php:51
+msgid "A new portfolio default theme for WordPress"
+msgstr "Un nuevo tema predeterminado de portfolio para WordPress"
+
+#: inc/block-patterns.php:47
+msgid "Large text"
+msgstr "Texto grande"
+
+#. translators: Hidden accessibility text.
+#: image.php:84
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Tamaño completo"
+
+#. translators: %s: Publish date.
+#: inc/template-tags.php:29
+msgid "Published %s"
+msgstr "Publicado %s"
+
+#: comments.php:61 image.php:45 inc/template-tags.php:224
+#: template-parts/content/content-page.php:33
+#: template-parts/content/content-single.php:27
+#: template-parts/content/content.php:33
+msgid "Page"
+msgstr "Página"
+
+#: template-parts/header/site-nav.php:19
+msgid "Close"
+msgstr "Cerrar"
+
+#: template-parts/header/site-nav.php:16
+msgid "Menu"
+msgstr "Menú"
+
+#: functions.php:76 inc/starter-content.php:154
+#: template-parts/header/site-nav.php:13
+msgid "Primary menu"
+msgstr "Menú Principal"
+
+#. translators: Hidden accessibility text.
+#: header.php:29
+msgid "Skip to content"
+msgstr "Ir al contenido"
+
+#: functions.php:363
+msgid "Add widgets here to appear in your footer."
+msgstr "Agregá widgets acá para que aparezcan en el pie de página."
 
 #: functions.php:361
 msgid "Footer"
@@ -558,85 +644,6 @@ msgstr "Morado (o púrpura)"
 msgid "Blue"
 msgstr "Azul"
 
-#: comments.php:66
-msgid "Older comments"
-msgstr "Comentarios anteriores"
-
-#: classes/class-twenty-twenty-one-customize.php:109
-msgid "Full text"
-msgstr "Texto completo"
-
-#: classes/class-twenty-twenty-one-customize.php:75
-msgid "Display Site Title & Tagline"
-msgstr "Muestra el título y la descripción corta del sitio"
-
-#: 404.php:21
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Parece que no hay nada en esa ubicación. ¿Querés probar con una búsqueda?"
-
-#: 404.php:16 template-parts/content/content-none.php:30
-msgid "Nothing here"
-msgstr "No hay nada por acá."
-
-#: inc/block-patterns.php:63
-msgctxt "Block pattern description"
-msgid "A huge text followed by social networks and email address links."
-msgstr "Un texto enorme seguido por los enlaces a las redes sociales y a las direcciones de correo electrónico."
-
-#: inc/block-patterns.php:59
-msgid "Links area"
-msgstr "Área de enlaces"
-
-#: inc/block-patterns.php:47
-msgid "Large text"
-msgstr "Texto grande"
-
-#: image.php:83
-msgctxt "Used before full size attachment link."
-msgid "Full size"
-msgstr "Tamaño completo"
-
-#. translators: %s: Publish date.
-#: inc/template-tags.php:29
-msgid "Published %s"
-msgstr "Publicado %s"
-
-#: comments.php:61 image.php:45 inc/template-tags.php:224
-#: template-parts/content/content-page.php:33
-#: template-parts/content/content-single.php:27
-#: template-parts/content/content.php:33
-msgid "Page"
-msgstr "Página"
-
-#: template-parts/header/site-nav.php:19
-msgid "Close"
-msgstr "Cerrar"
-
-#: template-parts/header/site-nav.php:16
-msgid "Menu"
-msgstr "Menú"
-
-#: functions.php:76 inc/starter-content.php:154
-#: template-parts/header/site-nav.php:13
-msgid "Primary menu"
-msgstr "Menú Principal"
-
-#: header.php:26
-msgid "Skip to content"
-msgstr "Ir al contenido"
-
-#: functions.php:363
-msgid "Add widgets here to appear in your footer."
-msgstr "Agregá widgets acá para que aparezcan en el pie de página."
-
-#: comments.php:78
-msgid "Comments are closed."
-msgstr "Los comentarios están cerrados."
-
-#: comments.php:70
-msgid "Newer comments"
-msgstr "Comentarios más recientes"
-
 #: functions.php:233
 msgid "Green"
 msgstr "Verde"
@@ -677,6 +684,10 @@ msgstr "Normal"
 msgid "Small"
 msgstr "Pequeño"
 
+#: functions.php:150
+msgid "Extra small"
+msgstr "Muy pequeño"
+
 #. translators: %s: WordPress.
 #: footer.php:67
 msgid "Proudly powered by %s."
@@ -686,41 +697,33 @@ msgstr "Orgullosamente impulsado por %s"
 msgid "Secondary menu"
 msgstr "Menú secundario"
 
-#: searchform.php:24
-msgid "Search&hellip;"
-msgstr "Buscar..."
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
 
-#: inc/block-patterns.php:64
-msgid "Let&#8217;s Connect."
-msgstr "Conectemos."
+#: comments.php:70
+msgid "Newer comments"
+msgstr "Comentarios más recientes"
 
-#: inc/block-patterns.php:51
-msgid "A new portfolio default theme for WordPress"
-msgstr "Un nuevo tema predeterminado de portfolio para WordPress"
+#: comments.php:66
+msgid "Older comments"
+msgstr "Comentarios anteriores"
 
-#: functions.php:150
-msgid "Extra small"
-msgstr "Muy pequeño"
+#: classes/class-twenty-twenty-one-customize.php:109
+msgid "Full text"
+msgstr "Texto completo"
 
-#: inc/block-patterns.php:100
-msgctxt "Block pattern description"
-msgid "A media & text block with a big image on the left and a smaller one with bordered frame on the right."
-msgstr "Un bloque multimedia y texto, con una imagen grande a la izquierda y una más pequeña con un marco bordeado a la derecha."
+#: classes/class-twenty-twenty-one-customize.php:75
+msgid "Display Site Title & Tagline"
+msgstr "Muestra el título y la descripción corta del sitio"
 
-#: inc/block-patterns.php:75
-msgctxt "Block pattern description"
-msgid "A Media & Text block with a big image on the left and a heading on the right. The heading is followed by a separator and a description paragraph."
-msgstr "Un bloque multimedia y texto, con una imagen grande a la izquierda y un encabezado a la derecha. El título va seguido de un separador y un párrafo para la descripción."
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que no hay nada en esa ubicación. ¿Querés probar con una búsqueda?"
 
-#. translators: %s: Link to WP admin new post page.
-#: template-parts/content/content-none.php:43
-msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
-msgstr "¿Estás listo para publicar tu primera entrada? <a href=\"%s\">Empezá acá</a>."
-
-#. translators: %s: Author name.
-#: template-parts/post/author-bio.php:31
-msgid "View all of %s's posts."
-msgstr "Ver todas las entradas de %s."
+#: 404.php:16 template-parts/content/content-none.php:30
+msgid "Nothing here"
+msgstr "No hay nada por acá."
 
 #. Author URI of the theme
 #: footer.php:68

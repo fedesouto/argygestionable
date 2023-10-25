@@ -1,0 +1,102 @@
+[
+    {
+      "id_provincia": 1,
+      "Desc_provincia": "Buenos Aires"
+    },
+    {
+      "id_provincia": 2,
+      "Desc_provincia": "Buenos Aires-GBA"
+    },
+    {
+      "id_provincia": 3,
+      "Desc_provincia": "Capital Federal"
+    },
+    {
+      "id_provincia": 4,
+      "Desc_provincia": "Catamarca"
+    },
+    {
+      "id_provincia": 5,
+      "Desc_provincia": "Chaco"
+    },
+    {
+      "id_provincia": 6,
+      "Desc_provincia": "Chubut"
+    },
+    {
+      "id_provincia": 7,
+      "Desc_provincia": "Cordoba"
+    },
+    {
+      "id_provincia": 8,
+      "Desc_provincia": "Corrientes"
+    },
+    {
+      "id_provincia": 9,
+      "Desc_provincia": "Entre Rios"
+    },
+    {
+      "id_provincia": 10,
+      "Desc_provincia": "Formosa"
+    },
+    {
+      "id_provincia": 11,
+      "Desc_provincia": "Jujuy"
+    },
+    {
+      "id_provincia": 12,
+      "Desc_provincia": "La Pampa"
+    },
+    {
+      "id_provincia": 13,
+      "Desc_provincia": "La Rioja"
+    },
+    {
+      "id_provincia": 14,
+      "Desc_provincia": "Mendoza"
+    },
+    {
+      "id_provincia": 15,
+      "Desc_provincia": "Misiones"
+    },
+    {
+      "id_provincia": 16,
+      "Desc_provincia": "Neuquen"
+    },
+    {
+      "id_provincia": 17,
+      "Desc_provincia": "Rio Negro"
+    },
+    {
+      "id_provincia": 18,
+      "Desc_provincia": "Salta"
+    },
+    {
+      "id_provincia": 19,
+      "Desc_provincia": "San Juan"
+    },
+    {
+      "id_provincia": 20,
+      "Desc_provincia": "San Luis"
+    },
+    {
+      "id_provincia": 21,
+      "Desc_provincia": "Santa Cruz"
+    },
+    {
+      "id_provincia": 22,
+      "Desc_provincia": "Santa Fe"
+    },
+    {
+      "id_provincia": 23,
+      "Desc_provincia": "Santiago del Estero"
+    },
+    {
+      "id_provincia": 24,
+      "Desc_provincia": "Tierra del Fuego"
+    },
+    {
+      "id_provincia": 25,
+      "Desc_provincia": "Tucuman"
+    }
+  ]
