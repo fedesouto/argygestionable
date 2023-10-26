@@ -20,7 +20,6 @@ Text Domain:  vidaproductions
   --dark-beige: #a1907f;
   --brown: #955c3f;
   --blue-accent: #273a42;
-
 }
 
 /* RESET */
@@ -46,30 +45,96 @@ Text Domain:  vidaproductions
 }
 
 .vida-product-summary-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
 }
 
 .vida-hidden-quantity-button {
-	display: none;
+  display: none;
 }
 
 .vida-single-product-title {
-    font-size: 6rem;
-    margin-bottom: 1rem !important;
+  font-size: 6rem;
+  margin-bottom: 1rem !important;
 }
 
 .vida-single-product-description {
-    margin-left: 4rem;
-    margin-top: 2rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
 }
 .vida-single-product-description p {
-    max-width: 48%;
+  max-width: 48%;
 }
 
 .vida-shop-filter-container {
   display: flex;
   margin-bottom: 4rem;
   align-items: center;
+  justify-content: space-between;
+}
+
+.woocommerce-no-products-found {
+  grid-column: 1/5;
+}
+
+.vida-loader {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: solid 5px transparent;
+  border-bottom-color: var(--white);
+  animation: rotate;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  grid-column: 3/4;
+  margin-top: 5rem;
+}
+
+.vida-button-outline {
+  background-color: transparent !important;
+  border: 1px solid var(--white) !important;
+  border-radius: 60px !important;
+  padding: 1rem 1.2rem !important;
+  font-weight: 600 !important;
+  transition: all 0.2s;
+}
+.vida-button-outline:hover {
+  background-color: var(--white) !important;
+  color: var(--green) !important;
+}
+
+.vida-product-filter-container {
+  display: flex;
+  align-items: center;
+
+}
+.vida-select-filter {
+  background-color: transparent !important;
+  color: var(--white) !important;
+  border: none !important;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10L12 15L17 10H7Z' fill='%23F3EFEC'/%3E%3C/svg%3E");background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+  background-size: 1.25rem auto;
+  margin-right: 2rem;
+}
+.vida-select-filter option {
+  font-weight: 600 !important;
+  color: var(--green) !important;
+}
+
+#vida-shop-resetButton {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
