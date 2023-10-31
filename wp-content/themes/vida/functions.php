@@ -126,3 +126,10 @@ function vida_remove_pagination($cols)
 	$cols = 90;
 	return $cols;
 }
+
+add_action( 'wp_enqueue_scripts', 'vida_frontpage_styles' );
+function vida_frontpage_styles(){
+  if( is_front_page() ){
+     wp_enqueue_style( 'front-page-styles', get_stylesheet_directory_uri() . '/front-page.css', array(), false, 'screen' );
+  }
+}
